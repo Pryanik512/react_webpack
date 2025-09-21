@@ -1,0 +1,25 @@
+{
+  "counterparties": [
+    {
+      "id": "1",
+      "name": "Udate333Nameeee",
+      "address": "USA",
+      "inn": 12345678900,
+      "kpp": 111111
+    },
+    {
+      "id": "2",
+      "name": "Mars123",
+      "inn": 23123,
+      "kpp": 123123,
+      "address": "adfasdfasdf"
+    },
+    {
+      "id": "3",
+      "name": "aasdasd",
+      "inn": 123123,
+      "kpp": 123123,
+      "address": "123123144"
+    }
+  ]
+}
