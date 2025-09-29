@@ -2,7 +2,7 @@
   "counterparties": [
     {
       "id": "1",
-      "name": "Udate333Nameeee",
+      "name": "Udate333Nameeee11",
       "address": "USA",
       "inn": 12345678900,
       "kpp": 111111
@@ -16,10 +16,38 @@
     },
     {
       "id": "3",
-      "name": "aasdasd",
+      "name": "aasd",
+      "address": "123123144",
       "inn": 123123,
+      "kpp": 123123
+    },
+    {
+      "id": "4",
+      "name": "sfdgfdg",
+      "inn": 23123,
       "kpp": 123123,
-      "address": "123123144"
+      "address": "adfasdfasdf"
+    },
+    {
+      "id": "5",
+      "name": "qwa",
+      "inn": 23123,
+      "kpp": 123123,
+      "address": "adfasdfasdf"
+    },
+    {
+      "id": "6",
+      "name": "asdasdqweqweasdasd",
+      "inn": 23123,
+      "kpp": 123123,
+      "address": "USA"
+    },
+    {
+      "id": "7",
+      "name": "asdd",
+      "inn": 23123,
+      "kpp": 123123,
+      "address": "USA"
     }
   ]
 }
