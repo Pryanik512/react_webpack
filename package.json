@@ -44,11 +44,13 @@
     "webpack-merge": "^5.10.0"
   },
   "dependencies": {
+    "final-form": "^5.0.0",
     "flowbite": "^2.5.2",
     "flowbite-react": "^0.12.9",
     "json-server": "^1.0.0-beta.3",
     "query-string": "^9.0.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-final-form": "^7.0.0"
   }
 }

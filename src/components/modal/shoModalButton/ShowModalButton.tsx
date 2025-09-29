@@ -1,12 +1,13 @@
 import { useContext } from "react";
 import { CounterpartyContext } from "src/contexts/CounterpartyContext";
-import { CreateButtonType } from "src/type/CreateButtonType";
+import { modalService } from "src/services/ModalService";
 
 const ShowModalButton = () => {
 
     const { updatecounterpartyToEdit } = useContext(CounterpartyContext);
 
     function clickCreateCpButton() {
+        modalService.showModal();
 
         updatecounterpartyToEdit(null);
     }

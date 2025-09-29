@@ -1,8 +1,7 @@
 import { useContext, useState } from "react";
 import DeleteRowButton from "../deleteRowButton/DeleteRowButton";
 import { CounterpartyContext } from "src/contexts/CounterpartyContext";
-
-
+import { modalService } from "src/services/ModalService";
 
 
 const CounterpartyTable = () => {
@@ -16,15 +15,7 @@ const CounterpartyTable = () => {
     const tableHeads = ['Наименование', 'ИНН', 'Адрес', 'КПП', ''];
 
     function showEditModal(counterpartyId: string) {
-        const bodyElement = document.querySelector('body')
-        bodyElement.classList.add('overflow-hidden');
-
-        const saveCounterpatyModalBtn = document.querySelector('#cp-creation-modal');
-        saveCounterpatyModalBtn.classList.remove('hidden');
-        saveCounterpatyModalBtn.classList.add('flex');
-        saveCounterpatyModalBtn.setAttribute('aria-modal','true');
-        saveCounterpatyModalBtn.setAttribute('role','dialog');
-        saveCounterpatyModalBtn.removeAttribute('aria-hidden');
+        modalService.showModal();
 
         let cpToEdit = counterparties.filter((cc) => cc.id == counterpartyId)[0];
 
